@@ -287,7 +287,7 @@
   justify-content: center;
 }
 
-.buttons_container button {
+.buttons_container a {
   max-width: 271px;
   margin-bottom: 24px;
   border-radius: 4px;

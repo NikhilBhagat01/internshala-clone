@@ -32,6 +32,7 @@ const JobDetail = () => {
   const [loading, setIsloading] = useState(false);
 
   const { token } = useSelector((state) => state.auth);
+  const { user } = useSelector((state) => state.auth);
 
   const [isBookmarked, setIsBookmarked] = useState(false);
 
@@ -73,7 +74,6 @@ const JobDetail = () => {
   }, [id, token]);
 
   const addOrRemoveBookMark = async () => {
-    console.log("bookmard clicked");
     try {
       await axios.post(
         `${BASE_URL}/auth/addbookmark`,
@@ -323,7 +323,13 @@ const JobDetail = () => {
               {singleJob?.numOfOpenings ? singleJob.numOfOpenings : 2}
             </div>
             <div className="buttons_container">
-              <button>Apply now</button>
+              {/* <button>Apply now</button> */}
+              {singleJob?.postedBy?.email !== user.email && (
+                <ButtonMailto
+                  label={"Apply now"}
+                  mailto={singleJob?.postedBy?.email}
+                />
+              )}
             </div>
           </div>
         </div>
@@ -332,4 +338,11 @@ const JobDetail = () => {
   );
 };
 
+const ButtonMailto = ({ mailto, label }) => {
+  return (
+    <a href={`mailto:${mailto}`} target="_blank" rel="noopener noreferrer">
+      {label}
+    </a>
+  );
+};
 export default JobDetail;
