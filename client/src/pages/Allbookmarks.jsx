@@ -62,6 +62,8 @@ const Allbookmarks = () => {
           >
             <Spinner />
           </div>
+        ) : allbookmarks.length === 0 ? (
+          <h2 style={{ textAlign: "center" }}>NO BOOKMARKS YET...</h2>
         ) : (
           <table className="GeneratedTable">
             <thead>
