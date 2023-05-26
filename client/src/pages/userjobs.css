@@ -1,0 +1,8 @@
+.userjobs {
+  min-height: 100vh;
+}
+
+.userjobs_container {
+  max-width: 1500px;
+  margin: 40px auto;
+}

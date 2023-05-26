@@ -1,0 +1,58 @@
+.allbookmarks {
+  min-height: 100vh;
+}
+
+.allbookmarks_container {
+  max-width: 1500px;
+  margin: 40px auto;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  color: white;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+  border-width: 2px;
+  font-size: 14px;
+
+  padding: 10px;
+}
+
+table.GeneratedTable thead {
+  background-color: #00a5ec;
+}
+
+table tbody tr td img {
+  width: 40px;
+}
+
+table tbody tr td {
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid #e5dcdc !important;
+}
+
+table tbody tr td a {
+  text-decoration: underline;
+  color: blue;
+}
+
+table tbody tr td button {
+  cursor: pointer;
+  padding: 7px 15px;
+  font-weight: 600;
+  min-width: 80px;
+  line-height: 1.14285714;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #008bdc;
+  border-radius: 3px;
+  color: #008bdc;
+}

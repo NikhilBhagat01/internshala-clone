@@ -1,0 +1,81 @@
+.certificationCard {
+  border: 1px solid #eee;
+  border-radius: 11px;
+  overflow: hidden;
+  height: 263px;
+  width: 288px;
+}
+
+.certification_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.certification_container img {
+  width: 100%;
+  height: 106px;
+}
+
+.certificationCard .certification_container .content {
+  flex: 1;
+  padding: 24px 15px 23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content .duration {
+  font-size: 14px;
+  line-height: 1.14285714;
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+.content h6 {
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: #333;
+  margin-top: 12px;
+}
+
+.content .extra_info {
+  height: 21px;
+  font-size: 14px;
+  line-height: 1.57142857;
+  font-weight: 500;
+  color: #666;
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  margin: 8px 0 16px;
+}
+
+.extra_info .rating {
+  margin-left: 6px;
+  font-size: 14px;
+  line-height: 1.57142857;
+  font-weight: 500;
+  color: #666;
+}
+
+.extra_info .learners {
+  font-size: 15px;
+  padding-left: 11px;
+  margin-left: 10px;
+  border-left: 1px solid #cae7ff;
+  line-height: 1.33333333;
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+.certificationCard .certification_container .content .know_more_cta {
+  font-size: 14px !important;
+  line-height: 1.14285714 !important;
+  font-weight: 500 !important;
+  display: flex !important;
+  align-items: center !important;
+  color: #008bdc !important;
+
+  gap: 2px !important;
+}

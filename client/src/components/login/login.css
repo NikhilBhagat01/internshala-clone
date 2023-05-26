@@ -1,0 +1,88 @@
+.login {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.523);
+  z-index: 22;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.login_container {
+  width: 400px;
+  /* height: 498px; */
+  background-color: white;
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: rgb(205, 197, 197);
+}
+
+form {
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  /* gap: 20px; */
+  flex-direction: column;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+label {
+  color: #4c4c4c;
+  font-size: 16px;
+}
+input {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+input:hover {
+  border: 1px solid #008bdc;
+}
+input:focus {
+  border: 1px solid #008bdc;
+}
+input::placeholder {
+  color: gray;
+}
+
+.forgot {
+  text-align: right;
+  margin-bottom: 10px;
+  color: #008bdc;
+  font-size: 15px;
+}
+
+.login_btn {
+  background-color: #008bdc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.login p {
+  margin-top: 17px;
+  color: #353434;
+  font-size: 13px;
+  text-align: center;
+}
+
+form p span {
+  display: inline-block;
+  text-decoration: underline;
+  color: #008bdc;
+  cursor: pointer;
+}

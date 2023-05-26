@@ -1,0 +1,224 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 48px;
+}
+
+.main_header {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.main_heading {
+  display: flex;
+  gap: 4px;
+}
+
+.main_heading h1 {
+  font-size: 28px;
+  line-height: 1.28571429;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.main_header h4 {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #484848;
+  margin: 0;
+}
+
+/* TRENDING SECTION */
+
+.trending_section {
+  margin-top: 20px;
+  padding: 8px 0;
+}
+
+.trending_section .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  gap: 8px;
+}
+
+.title h5 {
+  font-size: 24px;
+  line-height: 1.33333333;
+  font-weight: 700;
+  color: #333;
+}
+
+.scroll {
+  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 600px) {
+  .scroll {
+    max-width: 1224px;
+    margin: 0 auto;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+}
+
+/* INTERNSHIP JOBS SECTION */
+
+.internships_jobs_section {
+  background-color: #f0fbff;
+}
+.internships_jobs_section_container {
+  padding: 48px 0;
+}
+
+.internships_jobs_section_container .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.internships_jobs_section_container .title h5 {
+  font-size: 24px;
+  line-height: 1.33333333;
+  font-weight: 700;
+  color: #333;
+}
+
+.title p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #484848;
+  margin: 0;
+}
+
+.title p a {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1997df;
+}
+
+.intership_scroll {
+  max-width: 1224px;
+  margin: 0 auto;
+  gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* CERTIFICATION TRAINING SECTION */
+.certification_trainings_section {
+  padding: 20px 0;
+}
+
+.certification_trainings_container {
+  padding: 8px 0;
+}
+
+.certification_trainings_container h5 {
+  font-size: 24px;
+  line-height: 1.33333333;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
+/* FOOTER */
+.Footer {
+  background-color: #333333;
+  padding: 30px 0;
+  color: #eaf3e1;
+}
+
+.footer_wrapper {
+  max-width: 1224px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+.footer_about_us_container {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #666;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer_column {
+  width: 100%;
+  max-width: 220px;
+}
+
+.footer_listItem {
+  padding-bottom: 8px;
+}
+.footer_listItem span {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.14285714;
+  cursor: pointer;
+}
+
+.footer_listItem span:hover {
+  font-weight: 500;
+}
+
+.footer_bottom {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_bottom_left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.get_android_app {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #dddddd;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.android_text {
+  font-weight: bold;
+}
+
+.social_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.social_icons svg {
+  cursor: pointer;
+}

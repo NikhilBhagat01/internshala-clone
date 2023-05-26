@@ -1,0 +1,302 @@
+.jobsDetail {
+  min-height: 100vh;
+}
+
+.jobsDetail_wrapper {
+  max-width: 940px;
+  margin: 55px auto;
+  height: 100%;
+}
+
+.detail-banner-container {
+  height: 142px;
+  margin-bottom: 32px;
+}
+.detail-banner-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.jobDetail_header {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 1.28571429;
+  font-weight: 600;
+}
+
+.jobDetail_detail_view {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 24px 24px 0;
+}
+.individual_jobDetail {
+  margin-bottom: 24px;
+}
+.actively_hiring_badge {
+  width: fit-content;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  gap: 4px;
+}
+
+.individual_internship_header_jobDetail {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.individual_internship_header_jobDetail .company {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.company_name {
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 600;
+  color: #8a8a8a;
+}
+
+.individual_internship_header_jobDetail .internship_logo {
+  margin-left: 16px;
+  max-width: 104px;
+  max-height: 48px;
+  color: transparent;
+}
+
+.internship_meta_jobDetail .individual_internship_header_jobDetail {
+  margin-bottom: 8px;
+}
+.internship_meta_jobDetail
+  .individual_internship_header_jobDetail
+  .profile_on_detail_page {
+  font-size: 16px;
+}
+
+.individual_internship_job .location_names {
+  margin-bottom: 20px;
+}
+
+.individual_internship_job .location_names span {
+  color: #333333;
+  font-size: 14px;
+}
+
+.individual_internship_job .internship_other_details_container {
+  display: flex;
+}
+
+.internship_other_details_container .other_detail_item_row {
+  display: flex;
+}
+.internship_other_details_container .other_detail_item_row .other_detail_item {
+  margin-right: 80px;
+}
+
+.internship_meta_jobDetail .tags_container_outer {
+  display: flex;
+  margin-top: 24px;
+}
+
+.internship_meta_jobDetail .tags_container_outer .posted_by_container {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.posted_by_container .status_container {
+  margin-right: 12px;
+  display: flex;
+}
+
+.status_container .status_small {
+  font-weight: 400;
+  padding: 2px 6px;
+  font-size: 12px;
+  line-height: 1.33333333;
+  height: 20px;
+  display: flex;
+  border-radius: 4px;
+  gap: 6px;
+  align-items: center;
+  text-align: center;
+  background: #f1ffe5;
+  color: #13800d;
+}
+
+.other_label_container .status_container .status_small {
+  color: #666 !important;
+  background-color: #eee !important;
+}
+
+.individual_jobDetail .button_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.applications_message_container {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #484848;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.application_message {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #484848;
+}
+
+.dropdown-menu-container {
+  margin-top: 16px;
+}
+
+.bookmark_button_detail_page {
+  margin-right: 20px;
+}
+
+.bookmark_button_detail_page svg {
+  cursor: pointer;
+}
+.internship_jobDetail {
+  border-top: 1px solid #eee;
+}
+.section_heading {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 600;
+}
+.website_link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 8px;
+  color: #484848;
+  word-break: break-word;
+}
+
+.website_link a {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  cursor: pointer;
+  color: #006bc2;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.about_company_text_container {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  word-break: break-word;
+  color: #484848;
+}
+
+.activity_section {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 16px 16px 8px;
+}
+
+.heading_activity {
+  color: #484848;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  font-weight: 600;
+}
+
+.activity_container {
+  display: flex;
+  align-items: center;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 24px;
+  padding-bottom: 8px;
+  color: #484848;
+}
+
+.body_main {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57142857;
+}
+
+.text_container {
+  word-break: break-word;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding-bottom: 8px;
+  color: #484848;
+}
+
+.round_tabs_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.round_tabs {
+  background: #f8f8f8;
+  color: #666;
+  padding: 6px 12px;
+  border-radius: 14px;
+  margin-right: 16px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 16px;
+}
+
+.text_container p {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.buttons_container {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons_container button {
+  max-width: 271px;
+  margin-bottom: 24px;
+  border-radius: 4px;
+  padding: 12px 32px;
+  border: none;
+  min-width: 146px;
+  background: #00a5ec;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}

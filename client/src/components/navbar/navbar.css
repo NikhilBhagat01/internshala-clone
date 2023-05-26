@@ -1,0 +1,162 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  /* border-bottom: 1px solid #f0f0f0; */
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  background-color: #ffffff;
+}
+
+.navbar_container {
+  max-width: 1224px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_logo {
+  width: 140px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.navbar_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.navbar_right > span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: #555555;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+  height: 100%;
+}
+
+.btn {
+  background: #fff;
+  border: 1px solid #008bdc;
+  border-radius: 3px;
+  color: #008bdc;
+  padding: 5px 10px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: #00a5ec;
+  border-radius: 3px;
+  border: 1px solid #00a5ec;
+  color: #fff;
+}
+
+.navbar_right > span:hover {
+  color: #008bdc;
+}
+
+.navbar_right_icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.user_info {
+  /* display: flex;
+  align-items: center;
+  gap: 2px; */
+  /* cursor: pointer; */
+  position: relative;
+}
+.user_info .user_ne {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  cursor: pointer;
+}
+.user_info .name {
+  height: 20px;
+  border: 1px solid #555555;
+  width: 20px;
+  padding: 3px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu {
+  position: absolute;
+  top: 56px;
+  left: -226px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  width: 264px;
+  z-index: 1100;
+  border-top: 1px solid #efefef;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dropdown_menu_wrapper {
+  padding: 19px;
+}
+
+.dropdown_menu_wrapper .create_job {
+  margin-top: 4px;
+  padding-top: 10px;
+  cursor: pointer;
+  border-top: 1px solid #dcd7d7;
+}
+
+.dropdown_menu_wrapper button {
+  cursor: pointer;
+}
+
+.user_name_email {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dcd7d7;
+  padding-bottom: 23px;
+}
+
+.user_name_email h5 {
+  color: #484848;
+  font-size: 14px;
+}
+
+.user_name_email span {
+  color: #484848;
+  font-size: 14px;
+}
+
+.user_name_email span:hover {
+  color: #008bdc;
+}
+.user_name_email a:hover {
+  color: #008bdc;
+}
+
+.dropdown_menu_wrapper button {
+  background-color: #008bdc;
+  padding: 10px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  border: none;
+}

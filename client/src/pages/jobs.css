@@ -1,0 +1,222 @@
+.jobs {
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.jobs_container {
+  max-width: 979px;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+
+.breadcrumb_nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 47px;
+}
+.breadcrumb_nav span {
+  font-size: 14px;
+  color: #625c5c;
+}
+
+.jobs_heading {
+  font-size: 18px;
+  line-height: 1.33333333;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 330px;
+}
+.jobs_and_filters {
+  display: flex;
+  gap: 20px;
+}
+
+.jobs_left {
+  flex: 4;
+  background-color: #ffffff;
+  border: 1px solic gray;
+  height: fit-content;
+  height: fit-content;
+  position: sticky;
+  top: 20px;
+}
+
+.jobs_wrapper {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.fiterUi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.jobs_wrapper label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.jobs_wrapper select {
+  background-color: transparent;
+  /* border: none; */
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+.fiterUi span {
+  color: #484848;
+  font-weight: bold;
+}
+.jobs_right {
+  flex: 8;
+  /* background-color: #ffffff; */
+}
+
+.internship_list_marketing {
+  background-color: #ffffff;
+  border-radius: 11px;
+  box-shadow: 0 0 4px rgba(72, 72, 72, 0.12), 0 2px 2px rgba(72, 72, 72, 0.08);
+  margin-bottom: 24px;
+}
+.internship_list_wrapper {
+  padding: 16px 0 16px 16px;
+}
+
+.individual_internship_header {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333;
+  max-width: 471px;
+}
+
+.logo_container {
+  background: #ff8c00;
+  border-radius: 12px 0 0 12px;
+  color: #fff;
+  padding: 4px 23px;
+  height: 24px;
+  margin-left: 16px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.individual_internship_details {
+  padding-right: 23px;
+}
+
+.bullet_list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bullet_point {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  color: #4f4d4d;
+}
+
+.bullet {
+  border-radius: 3px;
+  width: 5px;
+  height: 5px;
+  background-color: #484848;
+  margin-right: 8px;
+}
+
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16px;
+}
+
+.tags_container {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.label_container {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #484848;
+  background: #f8f8f8;
+  border-radius: 14px;
+  margin-right: 8px;
+}
+
+.view_detail_button {
+  /* padding: 8px 0 8px 8px; */
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #008bdc;
+  cursor: pointer;
+  line-height: 1.14285714;
+  font-size: 15px;
+}
+
+.jobs_wrapper form {
+  margin-top: 20px;
+  border-top: 1px solid #e9e1e1;
+  display: flex;
+  /* gap: 20px; */
+  flex-direction: column;
+  padding: 0;
+}
+
+.jobs_wrapper form button {
+  border-radius: 4px;
+  padding: 7px 32px;
+  border: none;
+  min-width: 146px;
+  background: #00a5ec;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.clear_filter_btn {
+  width: 100%;
+  border-radius: 4px;
+  padding: 7px 32px;
+  border: none;
+  min-width: 146px;
+  background: red;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}

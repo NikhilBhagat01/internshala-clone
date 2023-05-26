@@ -1,0 +1,20 @@
+.skel {
+  width: 639px;
+  height: 337px;
+  margin-bottom: 20px;
+}
+
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200deg 11.78% 78.58%);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
